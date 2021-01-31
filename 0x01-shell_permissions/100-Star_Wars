@@ -1,1 +1,2 @@
-1ke1je1
+#!/bin/bash
+telnet towel.blinkenlights.nl
