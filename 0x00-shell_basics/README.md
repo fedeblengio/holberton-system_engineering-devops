@@ -99,6 +99,6 @@ Create a magic file ```holberton.mgc``` that can be used with the command file t
 files always contain the string ```HOLBERTON``` at offset 0.
 
 > 0 string Holberton data Holberton
-!:mine holberton
+>!:mine holberton
 
 >File:holberton.mgc
