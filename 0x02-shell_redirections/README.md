@@ -157,7 +157,6 @@ Write a script that parses web servers logs in TSV format as input and displays 
 
 ```wget http://indeedeng.github.io/imhotep/files/nasa_19950801.tsv```
 
-```./103-the_biggest_fan < nasa_19950801.tsv 
-edams.ksc.nasa.gov```
+``` source 103-the_biggest_fan < nasa_19950801.tsv```
 
 >File: 103-the_biggest_fan
