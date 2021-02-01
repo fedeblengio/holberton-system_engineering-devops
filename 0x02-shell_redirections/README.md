@@ -156,6 +156,7 @@ Write a script that parses web servers logs in TSV format as input and displays 
 - You are not allowed to use ```grep```, ```egrep```, ```fgrep``` or ```rgrep```
 
 ```wget http://indeedeng.github.io/imhotep/files/nasa_19950801.tsv```
+
 ```./103-the_biggest_fan < nasa_19950801.tsv 
 edams.ksc.nasa.gov```
 
