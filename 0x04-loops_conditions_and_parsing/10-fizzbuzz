@@ -16,9 +16,9 @@ then
 echo "FizzBuzz"
 elif ((x % 5 == 0))
 then
-echo "Fizz"
-elif ((x % 3 == 0)); then
 echo "Buzz"
+elif ((x % 3 == 0)); then
+echo "Fizz"
 else
 echo "$x"
 fi
