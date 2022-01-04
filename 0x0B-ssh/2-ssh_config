@@ -1,0 +1,6 @@
+# 2. Client configuration file
+
+
+password no
+identity file ~/.ssh/school
+
