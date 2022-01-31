@@ -19,8 +19,8 @@ if __name__ == "__main__":
         if i['completed']:
             completedTasks += 1
 
-    print(f"Employee {userName} is done with tasks({
-            completedTasks}/{len(tasksJson)}): ")
+    print("Employee {} is done with tasks{}/{}): ".format(
+        userName, completedTasks, len(tasksJson)))
 
     for i in tasksJson:
         if i['completed']:
