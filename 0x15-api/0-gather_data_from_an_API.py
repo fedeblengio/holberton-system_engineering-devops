@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """0. Gather data from an API"""
+
 import requests
 from sys import argv
 
@@ -19,7 +20,7 @@ if __name__ == "__main__":
         if i['completed']:
             completedTasks += 1
 
-    print("Employee {} is done with tasks{}/{}): ".format(
+    print("Employee {} is done with tasks({}/{}): ".format(
         userName, completedTasks, len(tasksJson)))
 
     for i in tasksJson:
